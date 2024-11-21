@@ -3,7 +3,7 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import multer from 'multer';
 import path from 'path';
-import Product from './models/Product.js';
+import Product from './models/product.js';
 import { userSignUp, userSignIn, fetchUser, addToCart, removeFromCart, getAllCartData, clearCart } from './controller/user.js';
 import bodyParser from 'body-parser'
 import razorpayRoutes from './paymentIntregation/razorpay.js'
